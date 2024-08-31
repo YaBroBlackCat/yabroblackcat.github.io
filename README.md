@@ -1,5 +1,9 @@
-# yabroblackcat.github.io
+# YaBroBlackCat
 A cool website for my projects
+
+Help me out by subbing to my [Patreon!](https://patreon.com/yabroblackcat)
+
+Check out my games on my [Itch!](https://ycreate.itch.io)
 
 ## Taki Clicker (Legacy)
 Taki Clicker is an old game of mine originally made in 5th grade as a joke but became a serious project.
