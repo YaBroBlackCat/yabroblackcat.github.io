@@ -10,6 +10,15 @@ Taki Clicker is an old game of mine originally made in 5th grade as a joke but b
 Currently, I am planning on cancelling development on Taki Clicker and rebooting it in Godot Engine as "Toki Clicker" to avoid copyright.
 ### Updates
 
+#### Texture Packs Update
+ - September 8, 2024, 4:08 AM
+
+   - I have officially added texture pack support! To use texture packs, you first need to download the zip file. To import the texture pack, go to the options menu and press "import texture pack." This will import the zip to the game and load the pack!
+To make a texture pack, you must download the provided defaults. Once downloaded, use any drawing software as long as it support svg files. When making a texture pack MAKE SURE TO KEEP THE DIMENSIONS THE SAME! Do not change the dimensions unless intentional as it will make the textures look weird.
+I have also updated the archives to make them use sb3 files instead of zips. This is to make it easier for you all to just import the file to Turbowarp and call it good👍
+Have fun modding and retexturing!
+Message me about any bugs that you find!
+
 #### Archives Update
  - ​August 30, 2024, 7:02 PM
 
