@@ -10,6 +10,11 @@ Taki Clicker is an old game of mine originally made in 5th grade as a joke but b
 Currently, I am planning on cancelling development on Taki Clicker and rebooting it in Godot Engine as "Toki Clicker" to avoid copyright.
 ### Updates
 
+#### Another Archives Update
+ - November 20, 2024, 11:22 PM
+
+   - I updated the Archives zip to include version 0.7.1.0.
+
 #### Texture Packs Update
  - September 8, 2024, 4:08 AM
 
