@@ -1,3 +1,5 @@
+## Taki Clicker Legacy
+
 ### Updates
 > These aren't all the updates made, they are just the only ones that were documented on [Itch.io](https://itch.io)
 
