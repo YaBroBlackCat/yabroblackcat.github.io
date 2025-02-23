@@ -1,5 +1,5 @@
 ### Updates
-> These are all the updates made, they are just the only ones that were documented on [Itch.io](https://itch.io)
+> These aren't all the updates made, they are just the only ones that were documented on [Itch.io](https://itch.io)
 
 #### Another Archives Update
  - November 20, 2024, 11:22 PM
