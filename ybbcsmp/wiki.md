@@ -64,3 +64,5 @@ Plugins -
 [ViaVersion](https://modrinth.com/plugin/viaversion)
 
 [Maintenance](https://modrinth.com/plugin/maintenance)
+
+[Skript](https://www.spigotmc.org/resources/skript.114544/)
