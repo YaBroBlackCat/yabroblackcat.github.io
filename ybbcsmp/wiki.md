@@ -44,6 +44,7 @@ Plugins -
 [Nether Lock](https://modrinth.com/plugin/netherlock)
 
 [PacketEvents](https://modrinth.com/plugin/packetevents)
+
 [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
 
 [Protocolib](https://www.spigotmc.org/resources/protocollib.1997/)
