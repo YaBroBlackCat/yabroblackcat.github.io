@@ -81,3 +81,5 @@ Plugins -
 [Vault](https://www.spigotmc.org/resources/vault.34315/)
 
 [ViaVersion](https://modrinth.com/plugin/viaversion)
+
+[zMenu](https://www.spigotmc.org/resources/zmenu-ultra-complete-menu-plugin.110402/)
