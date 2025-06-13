@@ -1,4 +1,5 @@
 Plugins -
+
 [Advanced Server List](https://modrinth.com/plugin/advancedserverlist)
 
 [Anti Nether Roof](https://modrinth.com/plugin/anti-nether-roof)
@@ -13,7 +14,11 @@ Plugins -
 
 [Chunky](https://modrinth.com/plugin/chunky)
 
+[Command Blocker](https://modrinth.com/plugin/commandblocker)
+
 [DiscordSRV](https://www.spigotmc.org/resources/discordsrv.18494/)
+
+[DriveBackupV2](https://modrinth.com/plugin/drivebackupv2)
 
 [EssentialsX](https://essentialsx.net/downloads.html)
 
@@ -29,19 +34,25 @@ Plugins -
 
 [Geyser](https://geysermc.org/download/)
 
+[Geyser Updater](https://github.com/kejonaMC/GeyserUpdater)
+
+[KnockbackSync](https://modrinth.com/plugin/knockbacksync)
+
+[Kryptonite](https://modrinth.com/plugin/kryptonite)
+
 [LagFixer](https://modrinth.com/plugin/lagfixer)
 
 [Let Your Memory Rest](https://modrinth.com/plugin/leturmemoryrest)
 
 [LifeStealZ](https://modrinth.com/plugin/lifestealz)
 
-[LightAntiCheat](https://modrinth.com/plugin/lightanticheat)
-
 [LuckPerms](https://luckperms.net/download)
+
+[Maintenance](https://modrinth.com/plugin/maintenance)
 
 [Map Towny](https://github.com/TownyAdvanced/MapTowny)
 
-[Nether Lock](https://modrinth.com/plugin/netherlock)
+[NotBounties](https://www.spigotmc.org/resources/notbounties.104484/)
 
 [PacketEvents](https://modrinth.com/plugin/packetevents)
 
@@ -51,6 +62,10 @@ Plugins -
 
 [SeeMore](https://modrinth.com/plugin/seemore)
 
+[SkinRestorer](https://skinsrestorer.net/)
+
+[Skript](https://www.spigotmc.org/resources/skript.114544/)
+
 [TAB](https://modrinth.com/plugin/tab-was-taken)
 
 [Thirst](https://www.spigotmc.org/resources/thirst.3316/)
@@ -59,10 +74,10 @@ Plugins -
 
 [TownyChat](https://github.com/TownyAdvanced/TownyChat)
 
+[TownyMenus](https://github.com/TownyAdvanced/TownyMenus)
+
+[TruePortals](https://modrinth.com/plugin/trueportals)
+
 [Vault](https://www.spigotmc.org/resources/vault.34315/)
 
 [ViaVersion](https://modrinth.com/plugin/viaversion)
-
-[Maintenance](https://modrinth.com/plugin/maintenance)
-
-[Skript](https://www.spigotmc.org/resources/skript.114544/)
