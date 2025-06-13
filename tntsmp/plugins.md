@@ -24,6 +24,8 @@ Plugins -
 
 [EssentialsX Chat](https://essentialsx.net/downloads.html)
 
+[EventWar Beta](https://townyadvanced.github.io/eventwar.html)
+
 [Fancy Holograms](https://modrinth.com/plugin/fancyholograms)
 
 [Fancy NPCs](https://modrinth.com/plugin/fancynpcs)
