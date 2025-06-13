@@ -74,7 +74,7 @@ Plugins -
 
 [TownyChat](https://github.com/TownyAdvanced/TownyChat)
 
-[Towny Menu]([https://github.com/TownyAdvanced/TownyMenus](https://www.spigotmc.org/resources/towny-menu-update.103260/))
+[Towny Menu](https://www.spigotmc.org/resources/towny-menu-update.103260/)
 
 [TruePortals](https://modrinth.com/plugin/trueportals)
 
