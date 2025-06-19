@@ -30,8 +30,6 @@ Plugins -
 
 [Fancy NPCs](https://modrinth.com/plugin/fancynpcs)
 
-[FlagWar](https://townyadvanced.github.io/flagwar.html)
-
 [Floodgate](https://geysermc.org/download/?project=floodgate)
 
 [Geyser](https://geysermc.org/download/)
