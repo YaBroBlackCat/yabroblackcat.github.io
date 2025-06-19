@@ -48,8 +48,6 @@ Plugins -
 
 [Map Towny](https://github.com/TownyAdvanced/MapTowny)
 
-[NotBounties](https://www.spigotmc.org/resources/notbounties.104484/)
-
 [PacketEvents](https://modrinth.com/plugin/packetevents)
 
 [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
