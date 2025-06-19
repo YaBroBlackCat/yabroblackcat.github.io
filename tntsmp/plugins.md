@@ -34,8 +34,6 @@ Plugins -
 
 [Geyser](https://geysermc.org/download/)
 
-[Geyser Updater](https://github.com/kejonaMC/GeyserUpdater)
-
 [KnockbackSync](https://modrinth.com/plugin/knockbacksync)
 
 [Kryptonite](https://modrinth.com/plugin/kryptonite)
