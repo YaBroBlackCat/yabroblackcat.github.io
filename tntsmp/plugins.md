@@ -40,10 +40,6 @@ Plugins -
 
 [Kryptonite](https://modrinth.com/plugin/kryptonite)
 
-[LagFixer](https://modrinth.com/plugin/lagfixer)
-
-[Let Your Memory Rest](https://modrinth.com/plugin/leturmemoryrest)
-
 [LifeStealZ](https://modrinth.com/plugin/lifestealz)
 
 [LuckPerms](https://luckperms.net/download)
