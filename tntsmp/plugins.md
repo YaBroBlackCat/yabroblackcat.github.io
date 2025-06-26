@@ -8,6 +8,8 @@ Plugins -
 
 [BreweryX](https://modrinth.com/plugin/breweryx)
 
+[CalcMod](https://modrinth.com/plugin/calcmod)
+
 [Celest Combat](https://modrinth.com/plugin/celest-combat-plugin)
 
 [Chest Shop](https://www.spigotmc.org/resources/chestshop.51856/)
