@@ -1,5 +1,7 @@
 Plugins -
 
+[Advanced Seasons](https://www.spigotmc.org/resources/1-20-1-21-5-%E2%AD%95-advancedseasons-%E2%98%80%EF%B8%8F-4-seasons-plugin-%E2%9D%84%EF%B8%8F-real-season-colors-no-texture-pack-%E2%9C%85.114050/)
+
 [Advanced Server List](https://modrinth.com/plugin/advancedserverlist)
 
 [Anti Nether Roof](https://modrinth.com/plugin/anti-nether-roof)
@@ -39,8 +41,6 @@ Plugins -
 [KnockbackSync](https://modrinth.com/plugin/knockbacksync)
 
 [Kryptonite](https://modrinth.com/plugin/kryptonite)
-
-[LifeStealZ](https://modrinth.com/plugin/lifestealz)
 
 [LuckPerms](https://luckperms.net/download)
 
