@@ -26,6 +26,8 @@ Plugins -
 
 [Command Blocker](https://modrinth.com/plugin/commandblocker)
 
+[Decent Holograms(For EventWar)](https://www.spigotmc.org/resources/decentholograms-1-8-1-21-7-papi-support-no-dependencies.96927/)
+
 [DiscordSRV](https://www.spigotmc.org/resources/discordsrv.18494/)
 
 [DriveBackupV2](https://modrinth.com/plugin/drivebackupv2)
