@@ -8,15 +8,21 @@ Plugins -
 
 [BlueMap](https://modrinth.com/plugin/bluemap)
 
+[BlueMap Floodgate](https://github.com/TechnicJelle/BlueMapFloodgate)
+
+[BlueMap Player Control](https://github.com/TechnicJelle/BlueMapPlayerControl)
+
+[BlueSlimeCore](https://www.spigotmc.org/resources/blueslimecore.83189/)
+
 [BreweryX](https://modrinth.com/plugin/breweryx)
 
 [CalcMod](https://modrinth.com/plugin/calcmod)
 
-[Celest Combat](https://modrinth.com/plugin/celest-combat-plugin)
-
 [Chest Shop](https://www.spigotmc.org/resources/chestshop.51856/)
 
 [Chunky](https://modrinth.com/plugin/chunky)
+
+[CombatLogX](https://www.spigotmc.org/resources/combatlogx.31689/)
 
 [Command Blocker](https://modrinth.com/plugin/commandblocker)
 
