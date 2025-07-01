@@ -32,8 +32,6 @@ Plugins -
 
 [DriveBackupV2](https://modrinth.com/plugin/drivebackupv2)
 
-[EntityClearer](https://modrinth.com/plugin/entityclearer/versions)
-
 [EssentialsX](https://essentialsx.net/downloads.html)
 
 [EssentialsX Chat](https://essentialsx.net/downloads.html)
