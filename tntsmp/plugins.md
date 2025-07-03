@@ -46,6 +46,8 @@ Plugins -
 
 [Geyser](https://geysermc.org/download/)
 
+[GeyserExtras](https://modrinth.com/plugin/geyserextras)
+
 [KnockbackSync](https://modrinth.com/plugin/knockbacksync)
 
 [Kryptonite](https://modrinth.com/plugin/kryptonite)
