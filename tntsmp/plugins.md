@@ -48,9 +48,13 @@ Plugins -
 
 [GeyserExtras](https://modrinth.com/plugin/geyserextras)
 
+[Inventory Weight](https://www.spigotmc.org/resources/inventory-weight-1-16-1-21.70929/)
+
 [KnockbackSync](https://modrinth.com/plugin/knockbacksync)
 
 [Kryptonite](https://modrinth.com/plugin/kryptonite)
+
+[Limited Lives](https://modrinth.com/plugin/limitedlives)
 
 [LotterySix](https://modrinth.com/plugin/lotterysix)
 
@@ -59,6 +63,10 @@ Plugins -
 [Maintenance](https://modrinth.com/plugin/maintenance)
 
 [Map Towny](https://github.com/TownyAdvanced/MapTowny)
+
+[Multiverse Core](https://modrinth.com/plugin/multiverse-core)
+
+[Multiverse Inventories](https://modrinth.com/plugin/multiverse-inventories)
 
 [PacketEvents](https://modrinth.com/plugin/packetevents)
 
