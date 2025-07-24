@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YaBroBlackCat - Projects & Links</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for better readability */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #374151; /* Dark gray text */
+        }
+        .container {
+            max-width: 900px; /* Max width for content */
+        }
+        .content-section {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+            padding: 2rem; /* p-8 */
+            margin-bottom: 1.5rem; /* mb-6 */
+        }
+        .main-heading {
+            font-size: 3rem; /* text-4xl or text-5xl */
+            font-weight: 800; /* font-extrabold */
+            color: #1f2937; /* text-gray-900 */
+            margin-bottom: 1rem; /* mb-4 */
+        }
+        .sub-heading {
+            font-size: 1.875rem; /* text-3xl */
+            font-weight: 700; /* font-bold */
+            color: #3b82f6; /* text-blue-600 */
+            margin-top: 1.5rem; /* mt-6 */
+            margin-bottom: 1rem; /* mb-4 */
+        }
+        .text-link {
+            color: #3b82f6; /* text-blue-600 */
+            text-decoration: none;
+            font-weight: 600; /* font-semibold */
+            transition: color 0.2s ease-in-out;
+        }
+        .text-link:hover {
+            color: #2563eb; /* text-blue-700 */
+            text-decoration: underline;
+        }
+        .collapsible-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+            opacity: 0;
+        }
+        .collapsible-content.show {
+            max-height: 500px; /* Sufficiently large to show content */
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="container mx-auto">
+        <header class="text-center mb-10 p-8 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl shadow-lg">
+            <h1 class="text-5xl font-extrabold tracking-tight mb-3">YaBroBlackCat</h1>
+            <a href="https://ko-fi.com/A0A719FZRG" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 mb-4">
+                <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi" class="h-8">
+            </a>
+            <h2 class="text-2xl font-semibold mb-2 opacity-90">
+                Owner of <a href="https://www.roblox.com/communities/9862765/BawkBawk-Productions#!/" target="_blank" rel="noopener noreferrer" class="text-white hover:underline text-link">BawkBawk Productions</a>
+            </h2>
+            <a href="http://linktr.ee/YaBroBlackCat" target="_blank" rel="noopener noreferrer" class="text-xl font-medium text-white hover:underline text-link">LinkTree</a>
+        </header>
+
+        <main class="content-section">
+            <p class="text-lg mb-4">A cool website for my projects</p>
+
+            <p class="text-lg mb-4">
+                Help me out by subscribing to my <a href="https://ko-fi.com/yabroblackcat" target="_blank" rel="noopener noreferrer" class="text-link">Ko-fi!</a>
+            </p>
+
+            <p class="text-lg mb-6">
+                Check out my games on my <a href="https://ycreate.itch.io" target="_blank" rel="noopener noreferrer" class="text-link">Itch!</a>
+            </p>
+
+            <div class="mb-4">
+                <button
+                    id="takiClickerBtn"
+                    class="sub-heading w-full text-left bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded-lg shadow-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75"
+                    onclick="toggleCollapsible('takiClickerContent')"
+                >
+                    Taki Clicker Legacy
+                    <!-- Optional: Add an icon for dropdown state -->
+                </button>
+                <div id="takiClickerContent" class="collapsible-content mt-2">
+                    <p class="text-lg mb-2">
+                        Taki Clicker is an old game I originally made in 5th grade as a joke, but it soon became a serious project.
+                    </p>
+                    <p class="text-lg mb-2">
+                        In the fall of 2024, I decided to cancel future development on Taki Clicker and decided to attempt to reboot it in Godot Engine as "Toki Clicker" to avoid copyright.
+                    </p>
+                    <p class="text-lg">
+                        As of 2025, I have officially cancelled all continuation of this project.
+                    </p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        function toggleCollapsible(id) {
+            const element = document.getElementById(id);
+            if (element.classList.contains('show')) {
+                element.classList.remove('show');
+            } else {
+                element.classList.add('show');
+            }
+        }
+    </script>
+</body>
+</html>
