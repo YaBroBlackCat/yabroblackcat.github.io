@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Custom Ore Generation Wiki</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for better readability */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #374151; /* Dark gray text */
+        }
+        .container {
+            max-width: 900px; /* Max width for content */
+        }
+        .ore-section {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+            padding: 1.5rem; /* p-6 */
+            margin-bottom: 1.5rem; /* mb-6 */
+        }
+        .ore-title {
+            font-size: 2.25rem; /* text-3xl */
+            font-weight: 700; /* font-bold */
+            color: #1f2937; /* text-gray-900 */
+            margin-bottom: 1rem; /* mb-4 */
+        }
+        .detail-heading {
+            font-size: 1.25rem; /* text-xl */
+            font-weight: 600; /* font-semibold */
+            color: #3b82f6; /* text-blue-600 */
+            margin-top: 1rem; /* mt-4 */
+            margin-bottom: 0.5rem; /* mb-2 */
+        }
+        .biome-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem; /* space-x-2 for items, space-y-2 for rows */
+            list-style: none; /* Remove default list style */
+            padding: 0;
+            margin: 0;
+        }
+        .biome-item {
+            background-color: #e0f2f7; /* Light blue background */
+            color: #0c4a6e; /* Darker blue text */
+            padding: 0.375rem 0.75rem; /* px-3 py-1.5 */
+            border-radius: 0.5rem; /* rounded-full */
+            font-size: 0.875rem; /* text-sm */
+            font-weight: 500; /* font-medium */
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="container mx-auto">
+        <header class="text-center mb-10 p-6 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl shadow-lg">
+            <h1 class="text-5xl font-extrabold tracking-tight mb-3">Minecraft Custom Ore Generation</h1>
+            <p class="text-xl font-light opacity-90">A guide to ore spawn locations and rarities in this world.</p>
+        </header>
+
+        <!-- General Notes Section -->
+        <div class="ore-section text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Important Notes</h2>
+            <p class="text-lg mb-2">
+                This wiki reflects **custom ore generation rules** implemented via datapacks.
+                Default ore spawning has been disabled for most ores to ensure these rules apply.
+            </p>
+            <p class="text-lg">
+                <span class="font-semibold">Coal Ore:</span> Coal still generates in <span class="text-green-600 font-semibold">ALL Overworld biomes</span> as per default Minecraft behavior. No custom rules apply to coal.
+            </p>
+        </div>
+
+        <!-- Iron Ore Section -->
+        <div class="ore-section">
+            <h2 class="ore-title">Iron Ore</h2>
+            <p><span class="font-semibold">Rarity:</span> Common</p>
+            <p><span class="font-semibold">Depth (Y-levels):</span> -64 to 256</p>
+            <h3 class="detail-heading">Found in Biomes:</h3>
+            <ul class="biome-list">
+                <li class="biome-item">minecraft:forest</li>
+                <li class="biome-item">minecraft:birch_forest</li>
+                <li class="biome-item">minecraft:dark_forest</li>
+                <li class="biome-item">minecraft:flower_forest</li>
+                <li class="biome-item">minecraft:old_growth_birch_forest</li>
+                <li class="biome-item">minecraft:old_growth_pine_taiga</li>
+                <li class="biome-item">minecraft:old_growth_spruce_taiga</li>
+                <li class="biome-item">minecraft:taiga</li>
+                <li class="biome-item">minecraft:snowy_taiga</li>
+                <li class="biome-item">minecraft:jungle</li>
+                <li class="biome-item">minecraft:bamboo_jungle</li>
+                <li class="biome-item">minecraft:sparse_jungle</li>
+                <li class="biome-item">minecraft:grove</li>
+                <li class="biome-item">minecraft:cherry_grove</li>
+                <li class="biome-item">minecraft:plains</li>
+                <li class="biome-item">minecraft:sunflower_plains</li>
+                <li class="biome-item">minecraft:snowy_plains</li>
+                <li class="biome-item">minecraft:beach</li>
+                <li class="biome-item">minecraft:stony_shore</li>
+                <li class="biome-item">minecraft:river</li>
+                <li class="biome-item">minecraft:frozen_river</li>
+                <li class="biome-item">minecraft:swamp</li>
+                <li class="biome-item">minecraft:mangrove_swamp</li>
+                <li class="biome-item">minecraft:savanna</li>
+                <li class="biome-item">minecraft:savanna_plateau</li>
+                <li class="biome-item">minecraft:windswept_savanna</li>
+                <li class="biome-item">minecraft:windswept_hills</li>
+                <li class="biome-item">minecraft:windswept_forest</li>
+                <li class="biome-item">minecraft:windswept_gravelly_hills</li>
+                <li class="biome-item">minecraft:meadow</li>
+                <li class="biome-item">minecraft:dripstone_caves</li>
+                <li class="biome-item">minecraft:lush_caves</li>
+                <li class="biome-item">minecraft:ocean</li>
+                <li class="biome-item">minecraft:lukewarm_ocean</li>
+                <li class="biome-item">minecraft:cold_ocean</li>
+                <li class="biome-item">minecraft:deep_lukewarm_ocean</li>
+                <li class="biome-item">minecraft:deep_cold_ocean</li>
+                <li class="biome-item">terralith:alpine_grove</li>
+                <li class="biome-item">terralith:alpine_highlands</li>
+                <li class="biome-item">terralith:basalt_cliffs</li>
+                <li class="biome-item">terralith:birch_taiga</li>
+                <li class="biome-item">terralith:blooming_plateau</li>
+                <li class="biome-item">terralith:blooming_valley</li>
+                <li class="biome-item">terralith:cloud_forest</li>
+                <li class="biome-item">terralith:cold_shrubland</li>
+                <li class="biome-item">terralith:emerald_peaks</li>
+                <li class="biome-item">terralith:forested_highlands</li>
+                <li class="biome-item">terralith:granite_cliffs</li>
+                <li class="biome-item">terralith:gravel_beach</li>
+                <li class="biome-item">terralith:haze_mountain</li>
+                <li class="biome-item">terralith:highlands</li>
+                <li class="biome-item">terralith:hot_shrubland</li>
+                <li class="biome-item">terralith:ice_marsh</li>
+                <li class="biome-item">terralith:jungle_mountains</li>
+                <li class="biome-item">terralith:lavender_forest</li>
+                <li class="biome-item">terralith:lavender_valley</li>
+                <li class="biome-item">terralith:lush_valley</li>
+                <li class="biome-item">terralith:mirage_isles</li>
+                <li class="biome-item">terralith:moonlight_grove</li>
+                <li class="biome-item">terralith:moonlight_valley</li>
+                <li class="biome-item">terralith:orchid_swamp</li>
+                <li class="biome-item">terralith:rocky_jungle</li>
+                <li class="biome-item">terralith:rocky_mountains</li>
+                <li class="biome-item">terralith:rocky_shrubland</li>
+                <li class="biome-item">terralith:sakura_grove</li>
+                <li class="biome-item">terralith:sakura_valley</li>
+                <li class="biome-item">terralith:scarlet_mountains</li>
+                <li class="biome-item">terralith:shield_clearing</li>
+                <li class="biome-item">terralith:shield</li>
+                <li class="biome-item">terralith:shrubland</li>
+                <li class="biome-item">terralith:siberian_grove</li>
+                <li class="biome-item">terralith:siberian_taiga</li>
+                <li class="biome-item">terralith:skylands_autumn</li>
+                <li class="biome-item">terralith:skylands_spring</li>
+                <li class="biome-item">terralith:skylands_summer</li>
+                <li class="biome-item">terralith:skylands_winter</li>
+                <li class="biome-item">terralith:snowy_cherry_grove</li>
+                <li class="biome-item">terralith:snowy_maple_forest</li>
+                <li class="biome-item">terralith:snowy_shield</li>
+                <li class="biome-item">terralith:steppe</li>
+                <li class="biome-item">terralith:stony_spires</li>
+                <li class="biome-item">terralith:temperate_highlands</li>
+                <li class="biome-item">terralith:tropical_jungle</li>
+                <li class="biome-item">terralith:valley_clearing</li>
+                <li class="biome-item">terralith:warm_river</li>
+                <li class="biome-item">terralith:wintry_forest</li>
+                <li class="biome-item">terralith:wintry_lowlands</li>
+                <li class="biome-item">terralith:yellowstone</li>
+                <li class="biome-item">terralith:yosemite_cliffs</li>
+                <li class="biome-item">terralith:yosemite_lowlands</li>
+            </ul>
+        </div>
+
+        <!-- Redstone Ore Section -->
+        <div class="ore-section">
+            <h2 class="ore-title">Redstone Ore</h2>
+            <p><span class="font-semibold">Rarity:</span> Normal</p>
+            <p><span class="font-semibold">Depth (Y-levels):</span> -64 to 16</p>
+            <h3 class="detail-heading">Found in Biomes:</h3>
+            <ul class="biome-list">
+                <li class="biome-item">minecraft:badlands</li>
+                <li class="biome-item">minecraft:wooded_badlands</li>
+                <li class="biome-item">minecraft:eroded_badlands</li>
+                <li class="biome-item">minecraft:dripstone_caves</li>
+                <li class="biome-item">minecraft:lush_caves</li>
+                <li class="biome-item">minecraft:deep_dark</li>
+                <li class="biome-item">minecraft:nether_wastes</li>
+                <li class="biome-item">minecraft:soul_sand_valley</li>
+                <li class="biome-item">minecraft:crimson_forest</li>
+                <li class="biome-item">minecraft:warped_forest</li>
+                <li class="biome-item">minecraft:basalt_deltas</li>
+                <li class="biome-item">terralith:amethyst_canyon</li>
+                <li class="biome-item">terralith:basalt_cliffs</li>
+                <li class="biome-item">terralith:bryce_canyon</li>
+                <li class="biome-item">terralith:caldera</li>
+                <li class="biome-item">terralith:desert_canyon</li>
+                <li class="biome-item">terralith:desert_spires</li>
+                <li class="biome-item">terralith:fractured_savanna</li>
+                <li class="biome-item">terralith:granite_cliffs</li>
+                <li class="biome-item">terralith:gravel_desert</li>
+                <li class="biome-item">terralith:haze_mountain</li>
+                <li class="biome-item">terralith:lush_desert</li>
+                <li class="biome-item">terralith:painted_mountains</li>
+                <li class="biome-item">terralith:red_oasis</li>
+                <li class="biome-item">terralith:rocky_mountore-titleains</li>
+                <li class="biome-item">terralith:sandstone_valley</li>
+                <li class="biome-item">terralith:savanna_badlands</li>
+                <li class="biome-item">terralith:savanna_slopes</li>
+                <li class="biome-item">terralith:scarlet_mountains</li>
+                <li class="biome-item">terralith:stony_spires</li>
+                <li class="biome-item">terralith:volcanic_crater</li>
+                <li class="biome-item">terralith:volcanic_peaks</li>
+                <li class="biome-item">terralith:warped_mesa</li>
+                <li class="biome-item">terralith:white_cliffs</li>
+                <li class="biome-item">terralith:white_mesa</li>
+                <li class="biome-item">terralith:windswept_spires</li>
+                <li class="biome-item">terralith:yellowstone</li>
+                <li class="biome-item">terralith:yosemite_cliffs</li>
+                <li class="biome-item">terralith:yosemite_lowlands</li>
+            </ul>
+        </div>
+
+        <!-- Lapis Ore Section -->
+        <div class="ore-section">
+            <h2 class="ore-title">Lapis Ore</h2>
+            <p><span class="font-semibold">Rarity:</span> Normal</p>
+            <p><span class="font-semibold">Depth (Y-levels):</span> -64 to 30</p>
+            <h3 class="detail-heading">Found in Biomes:</h3>
+            <ul class="biome-list">
+                <li class="biome-item">minecraft:dripstone_caves</li>
+                <li class="biome-item">minecraft:lush_caves</li>
+                <li class="biome-item">minecraft:deep_dark</li>
+                <li class="biome-item">minecraft:deep_ocean</li>
+                <li class="biome-item">minecraft:deep_lukewarm_ocean</li>
+                <li class="biome-item">minecraft:deep_cold_ocean</li>
+                <li class="biome-item">minecraft:deep_frozen_ocean</li>
+                <li class="biome-item">minecraft:mushroom_fields</li>
+                <li class="biome-item">terralith:amethyst_canyon</li>
+                <li class="biome-item">terralith:blue_mountains</li>
+                <li class="biome-item">terralith:cloud_forest</li>
+                <li class="biome-item">terralith:fractured_savanna</li>
+                <li class="biome-item">terralith:glacier</li>
+                <li class="biome-item">terralith:moonlight_grove</li>
+                <li class="biome-item">terralith:moonlight_valley</li>
+                <li class="biome-item">terralith:orchid_swamp</li>
+                <li class="biome-item">terralith:skylands_spring</li>
+                <li class="biome-item">terralith:skylands_summer</li>
+                <li class="biome-item">terralith:stony_spires</li>
+                <li class="biome-item">terralith:volcanic_crater</li>
+                <li class="biome-item">terralith:volcanic_peaks</li>
+            </ul>
+        </div>
+
+        <!-- Gold Ore Section -->
+        <div class="ore-section">
+            <h2 class="ore-title">Gold Ore</h2>
+            <p><span class="font-semibold">Rarity:</span> Normal</p>
+            <p><span class="font-semibold">Depth (Y-levels):</span> -64 to 32</p>
+            <h3 class="detail-heading">Found in Biomes:</h3>
+            <ul class="biome-list">
+                <li class="biome-item">minecraft:badlands</li>
+                <li class="biome-item">minecraft:wooded_badlands</li>
+                <li class="biome-item">minecraft:eroded_badlands</li>
+                <li class="biome-item">minecraft:desert</li>
+                <li class="biome-item">minecraft:desert_lakes</li>
+                <li class="biome-item">minecraft:windswept_hills</li>
+                <li class="biome-item">minecraft:windswept_gravelly_hills</li>
+                <li class="biome-item">minecraft:windswept_forest</li>
+                <li class="biome-item">minecraft:windswept_savanna</li>
+                <li class="biome-item">terralith:bryce_canyon</li>
+                <li class="biome-item">terralith:caldera</li>
+                <li class="biome-item">terralith:desert_canyon</li>
+                <li class="biome-item">terralith:desert_spires</li>
+                <li class="biome-item">terralith:fractured_savanna</li>
+                <li class="biome-item">terralith:granite_cliffs</li>
+                <li class="biome-item">terralith:gravel_desert</li>
+                <li class="biome-item">terralith:haze_mountain</li>
+                <li class="biome-item">terralith:lush_desert</li>
+                <li class="biome-item">terralith:painted_mountains</li>
+                <li class="biome-item">terralith:red_oasis</li>
+                <li class="biome-item">terralith:rocky_mountains</li>
+                <li class="biome-item">terralith:sandstone_valley</li>
+                <li class="biome-item">terralith:savanna_badlands</li>
+                <li class="biome-item">terralith:savanna_slopes</li>
+                <li class="biome-item">terralith:scarlet_mountains</li>
+                <li class="biome-item">terralith:steppe</li>
+                <li class="biome-item">terralith:stony_spires</li>
+                <li class="biome-item">terralith:volcanic_crater</li>
+                <li class="biome-item">terralith:volcanic_peaks</li>
+                <li class="biome-item">terralith:white_cliffs</li>
+                <li class="biome-item">terralith:white_mesa</li>
+                <li class="biome-item">terralith:windswept_spires</li>
+                <li class="biome-item">terralith:yellowstone</li>
+                <li class="biome-item">terralith:yosemite_cliffs</li>
+                <li class="biome-item">terralith:yosemite_lowlands</li>
+            </ul>
+        </div>
+
+        <!-- Diamond Ore Section -->
+        <div class="ore-section">
+            <h2 class="ore-title">Diamond Ore</h2>
+            <p><span class="font-semibold">Rarity:</span> Very Rare</p>
+            <p><span class="font-semibold">Depth (Y-levels):</span> -64 to 0</p>
+            <h3 class="detail-heading">Found in Biomes:</h3>
+            <ul class="biome-list">
+                <li class="biome-item">minecraft:deep_dark</li>
+                <li class="biome-item">minecraft:dripstone_caves</li>
+                <li class="biome-item">minecraft:lush_caves</li>
+                <li class="biome-item">minecraft:deep_ocean</li>
+                <li class="biome-item">minecraft:deep_lukewarm_ocean</li>
+                <li class="biome-item">minecraft:deep_cold_ocean</li>
+                <li class="biome-item">minecraft:deep_frozen_ocean</li>
+                <li class="biome-item">minecraft:mushroom_fields</li>
+                <li class="biome-item">terralith:amethyst_canyon</li>
+                <li class="biome-item">terralith:basalt_cliffs</li>
+                <li class="biome-item">terralith:caldera</li>
+                <li class="biome-item">terralith:fractured_savanna</li>
+                <li class="biome-item">terralith:glacier</li>
+                <li class="biome-item">terralith:haze_mountain</li>
+                <li class="biome-item">terralith:moonlight_grove</li>
+                <li class="biome-item">terralith:moonlight_valley</li>
+                <li class="biome-item">terralith:scarlet_mountains</li>
+                <li class="biome-item">terralith:skylands_autumn</li>
+                <li class="biome-item">terralith:skylands_spring</li>
+                <li class="biome-item">terralith:skylands_summer</li>
+                <li class="biome-item">terralith:skylands_winter</li>
+                <li class="biome-item">terralith:stony_spires</li>
+                <li class="biome-item">terralith:volcanic_crater</li>
+                <li class="biome-item">terralith:volcanic_peaks</li>
+            </ul>
+        </div>
+
+        <!-- Emerald Ore Section -->
+        <div class="ore-section">
+            <h2 class="ore-title">Emerald Ore</h2>
+            <p><span class="font-semibold">Rarity:</span> Very Rare</p>
+            <p><span class="font-semibold">Depth (Y-levels):</span> -16 to 256</p>
+            <h3 class="detail-heading">Found in Biomes:</h3>
+            <ul class="biome-list">
+                <li class="biome-item">minecraft:windswept_hills</li>
+                <li class="biome-item">minecraft:windswept_gravelly_hills</li>
+                <li class="biome-item">minecraft:windswept_forest</li>
+                <li class="biome-item">minecraft:windswept_savanna</li>
+                <li class="biome-item">minecraft:snowy_slopes</li>
+                <li class="biome-item">minecraft:frozen_peaks</li>
+                <li class="biome-item">minecraft:jagged_peaks</li>
+                <li class="biome-item">minecraft:stony_peaks</li>
+                <li class="biome-item">minecraft:grove</li>
+                <li class="biome-item">minecraft:cherry_grove</li>
+                <li class="biome-item">terralith:alpine_grove</li>
+                <li class="biome-item">terralith:alpine_highlands</li>
+                <li class="biome-item">terralith:amethyst_canyon</li>
+                <li class="biome-item">terralith:basalt_cliffs</li>
+                <li class="biome-item">terralith:blue_mountains</li>
+                <li class="biome-item">terralith:cloud_forest</li>
+                <li class="biome-item">terralith:emerald_peaks</li>
+                <li class="biome-item">terralith:forested_highlands</li>
+                <li class="biome-item">terralith:granite_cliffs</li>
+                <li class="biome-item">terralith:haze_mountain</li>
+                <li class="biome-item">terralith:highlands</li>
+                <li class="biome-item">terralith:jungle_mountains</li>
+                <li class="biome-item">terralith:painted_mountains</li>
+                <li class="biome-item">terralith:rocky_mountains</li>
+                <li class="biome-item">terralith:scarlet_mountains</li>
+                <li class="biome-item">terralith:skylands_autumn</li>
+                <li class="biome-item">terralith:skylands_spring</li>
+                <li class="biome-item">terralith:skylands_summer</li>
+                <li class="biome-item">terralith:skylands_winter</li>
+                <li class="biome-item">terralith:stony_spires</li>
+                <li class="biome-item">terralith:volcanic_peaks</li>
+                <li class="biome-item">terralith:white_cliffs</li>
+                <li class="biome-item">terralith:windswept_spires</li>
+                <li class="biome-item">terralith:yosemite_cliffs</li>
+            </ul>
+        </div>
+
+        <!-- Copper Ore Section -->
+        <div class="ore-section">
+            <h2 class="ore-title">Copper Ore</h2>
+            <p><span class="font-semibold">Rarity:</span> Common</p>
+            <p><span class="font-semibold">Depth (Y-levels):</span> 0 to 96</p>
+            <h3 class="detail-heading">Found in Biomes:</h3>
+            <ul class="biome-list">
+                <li class="biome-item">minecraft:forest</li>
+                <li class="biome-item">minecraft:birch_forest</li>
+                <li class="biome-item">minecraft:dark_forest</li>
+                <li class="biome-item">minecraft:flower_forest</li>
+                <li class="biome-item">minecraft:old_growth_birch_forest</li>
+                <li class="biome-item">minecraft:old_growth_pine_taiga</li>
+                <li class="biome-item">minecraft:old_growth_spruce_taiga</li>
+                <li class="biome-item">minecraft:taiga</li>
+                <li class="biome-item">minecraft:snowy_taiga</li>
+                <li class="biome-item">minecraft:jungle</li>
+                <li class="biome-item">minecraft:bamboo_jungle</li>
+                <li class="biome-item">minecraft:sparse_jungle</li>
+                <li class="biome-item">minecraft:plains</li>
+                <li class="biome-item">minecraft:sunflower_plains</li>
+                <li class="biome-item">minecraft:snowy_plains</li>
+                <li class="biome-item">minecraft:swamp</li>
+                <li class="biome-item">minecraft:mangrove_swamp</li>
+                <li class="biome-item">minecraft:river</li>
+                <li class="biome-item">minecraft:frozen_river</li>
+                <li class="biome-item">minecraft:beach</li>
+                <li class="biome-item">minecraft:stony_shore</li>
+                <li class="biome-item">minecraft:ocean</li>
+                <li class="biome-item">minecraft:lukewarm_ocean</li>
+                <li class="biome-item">minecraft:cold_ocean</li>
+                <li class="biome-item">minecraft:windswept_hills</li>
+                <li class="biome-item">minecraft:windswept_forest</li>
+                <li class="biome-item">minecraft:windswept_gravelly_hills</li>
+                <li class="biome-item">minecraft:meadow</li>
+                <li class="biome-item">minecraft:grove</li>
+                <li class="biome-item">minecraft:cherry_grove</li>
+                <li class="biome-item">minecraft:lush_caves</li>
+                <li class="biome-item">terralith:alpine_grove</li>
+                <li class="biome-item">terralith:birch_taiga</li>
+                <li class="biome-item">terralith:blooming_plateau</li>
+                <li class="biome-item">terralith:blooming_valley</li>
+                <li class="biome-item">terralith:cloud_forest</li>
+                <li class="biome-item">terralith:cold_shrubland</li>
+                <li class="biome-item">terralith:forested_highlands</li>
+                <li class="biome-item">terralith:gravel_beach</li>
+                <li class="biome-item">terralith:hot_shrubland</li>
+                <li class="biome-item">terralith:lavender_forest</li>
+                <li class="biome-item">terralith:lavender_valley</li>
+                <li class="biome-item">terralith:lush_valley</li>
+                <li class="biome-item">terralith:mirage_isles</li>
+                <li class="biome-item">terralith:moonlight_grove</li>
+                <li class="biome-item">terralith:moonlight_valley</li>
+                <li class="biome-item">terralith:orchid_swamp</li>
+                <li class="biome-item">terralith:rocky_jungle</li>
+                <li class="biome-item">terralith:rocky_shrubland</li>
+                <li class="biome-item">terralith:sakura_grove</li>
+                <li class="biome-item">terralith:sakura_valley</li>
+                <li class="biome-item">terralith:shield_clearing</li>
+                <li class="biome-item">terralith:shield</li>
+                <li class="biome-item">terralith:shrubland</li>
+                <li class="biome-item">terralith:siberian_grove</li>
+                <li class="biome-item">terralith:siberian_taiga</li>
+                <li class="biome-item">terralith:snowy_cherry_grove</li>
+                <li class="biome-item">terralith:snowy_maple_forest</li>
+                <li class="biome-item">terralith:snowy_shield</li>
+                <li class="biome-item">terralith:steppe</li>
+                <li class="biome-item">terralith:temperate_highlands</li>
+                <li class="biome-item">terralith:tropical_jungle</li>
+                <li class="biome-item">terralith:valley_clearing</li>
+                <li class="biome-item">terralith:warm_river</li>
+                <li class="biome-item">terralith:wintry_forest</li>
+                <li class="biome-item">terralith:wintry_lowlands</li>
+                <li class="biome-item">terralith:yosemite_lowlands</li>
+            </ul>
+        </div>
+
+        <!-- Quartz Ore Section -->
+        <div class="ore-section">
+            <h2 class="ore-title">Quartz Ore</h2>
+            <p><span class="font-semibold">Rarity:</span> Common</p>
+            <p><span class="font-semibold">Depth (Y-levels):</span> 10 to 118</p>
+            <h3 class="detail-heading">Found in Biomes (Nether + Incendium):</h3>
+            <ul class="biome-list">
+                <li class="biome-item">minecraft:nether_wastes</li>
+                <li class="biome-item">minecraft:soul_sand_valley</li>
+                <li class="biome-item">minecraft:crimson_forest</li>
+                <li class="biome-item">minecraft:warped_forest</li>
+                <li class="biome-item">minecraft:basalt_deltas</li>
+                <li class="biome-item">incendium:ash_barrens</li>
+                <li class="biome-item">incendium:basaltic_deeps</li>
+                <li class="biome-item">incendium:bioluminescent_fens</li>
+                <li class="biome-item">incendium:brimstone_crag</li>
+                <li class="biome-item">incendium:cinderscape</li>
+                <li class="biome-item">incendium:congealed_lava_delta</li>
+                <li class="biome-item">incendium:corrupted_nylium_wastes</li>
+                <li class="biome-item">incendium:crystal_peaks</li>
+                <li class="biome-item">incendium:dried_lakes</li>
+                <li class="biome-item">incendium:ebon_cliffs</li>
+                <li class="biome-item">incendium:fortress_ruins</li>
+                <li class="biome-item">incendium:fungal_fens</li>
+                <li class="biome-item">incendium:gloom_spires</li>
+                <li class="biome-item">incendium:glowing_grotto</li>
+                <li class="biome-item">incendium:igneous_wasteland</li>
+                <li class="biome-item">incendium:infernal_canyon</li>
+                <li class="biome-item">incendium:inferno</li>
+                <li class="biome-item">incendium:inverted_forest</li>
+                <li class="biome-item">incendium:luminescent_forest</li>
+                <li class="biome-item">incendium:magma_basin</li>
+                <li class="biome-item">incendium:molten_depths</li>
+                <li class="biome-item">incendium:obsidian_ocean</li>
+                <li class="biome-item">incendium:ominous_forest</li>
+                <li class="biome-item">incendium:permafrost_plateau</li>
+                <li class="biome-item">incendium:prismatic_caves</li>
+                <li class="biome-item">incendium:quartz_caverns</li>
+                <li class="biome-item">incendium:red_wastelands</li>
+                <li class="biome-item">incendium:scorched_forest</li>
+                <li class="biome-item">incendium:soul_shores</li>
+                <li class="biome-item">incendium:sulphuric_springs</li>
+                <li class="biome-item">incendium:umbra_cliffs</li>
+                <li class="biome-item">incendium:unholy_barrens</li>
+                <li class="biome-item">incendium:volcanic_island</li>
+                <li class="biome-item">incendium:withered_forest</li>
+            </ul>
+        </div>
+
+        <!-- Ancient Debris Section -->
+        <div class="ore-section">
+            <h2 class="ore-title">Ancient Debris</h2>
+            <p><span class="font-semibold">Rarity:</span> Extremely Rare</p>
+            <p><span class="font-semibold">Depth (Y-levels):</span> 8 to 22</p>
+            <h3 class="detail-heading">Found in Biomes (Nether + Incendium):</h3>
+            <ul class="biome-list">
+                <li class="biome-item">minecraft:nether_wastes</li>
+                <li class="biome-item">minecraft:soul_sand_valley</li>
+                <li class="biome-item">minecraft:crimson_forest</li>
+                <li class="biome-item">minecraft:warped_forest</li>
+                <li class="biome-item">minecraft:basalt_deltas</li>
+                <li class="biome-item">incendium:ash_barrens</li>
+                <li class="biome-item">incendium:basaltic_deeps</li>
+                <li class="biome-item">incendium:bioluminescent_fens</li>
+                <li class="biome-item">incendium:brimstone_crag</li>
+                <li class="biome-item">incendium:cinderscape</li>
+                <li class="biome-item">incendium:congealed_lava_delta</li>
+                <li class="biome-item">incendium:corrupted_nylium_wastes</li>
+                <li class="biome-item">incendium:crystal_peaks</li>
+                <li class="biome-item">incendium:dried_lakes</li>
+                <li class="biome-item">incendium:ebon_cliffs</li>
+                <li class="biome-item">incendium:fortress_ruins</li>
+                <li class="biome-item">incendium:fungal_fens</li>
+                <li class="biome-item">incendium:gloom_spires</li>
+                <li class="biome-item">incendium:glowing_grotto</li>
+                <li class="biome-item">incendium:igneous_wasteland</li>
+                <li class="biome-item">incendium:infernal_canyon</li>
+                <li class="biome-item">incendium:inferno</li>
+                <li class="biome-item">incendium:inverted_forest</li>
+                <li class="biome-item">incendium:luminescent_forest</li>
+                <li class="biome-item">incendium:magma_basin</li>
+                <li class="biome-item">incendium:molten_depths</li>
+                <li class="biome-item">incendium:obsidian_ocean</li>
+                <li class="biome-item">incendium:ominous_forest</li>
+                <li class="biome-item">incendium:permafrost_plateau</li>
+                <li class="biome-item">incendium:prismatic_caves</li>
+                <li class="biome-item">incendium:quartz_caverns</li>
+                <li class="biome-item">incendium:red_wastelands</li>
+                <li class="biome-item">incendium:scorched_forest</li>
+                <li class="biome-item">incendium:soul_shores</li>
+                <li class="biome-item">incendium:sulphuric_springs</li>
+                <li class="biome-item">incendium:umbra_cliffs</li>
+                <li class="biome-item">incendium:unholy_barrens</li>
+                <li class="biome-item">incendium:volcanic_island</li>
+                <li class="biome-item">incendium:withered_forest</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
