@@ -56,6 +56,21 @@
             max-height: 500px; /* Sufficiently large to show content */
             opacity: 1;
         }
+        /* Style for the new "View Log" button */
+        .view-log-button {
+            display: inline-block;
+            background-color: #10b981; /* Green-500 */
+            color: white;
+            padding: 0.75rem 1.5rem; /* py-3 px-6 */
+            border-radius: 0.5rem; /* rounded-lg */
+            font-weight: 600; /* font-semibold */
+            text-decoration: none;
+            transition: background-color 0.2s ease-in-out;
+            margin-top: 1rem; /* mt-4 */
+        }
+        .view-log-button:hover {
+            background-color: #059669; /* Green-600 */
+        }
     </style>
 </head>
 <body class="bg-gray-100 p-6">
@@ -75,7 +90,7 @@
             <p class="text-lg mb-4">A cool website for my projects</p>
 
             <p class="text-lg mb-4">
-                Help me out by subscribing to my <a href="https://ko-fi.com/yabroblackcat" target="_blank" rel="noopener noreferrer" class="text-link">Ko-fi!</a>
+                Help me out by subscribing to my <a href="https://patreon.com/yabroblackcat" target="_blank" rel="noopener noreferrer" class="text-link">Patreon!</a>
             </p>
 
             <p class="text-lg mb-6">
@@ -98,9 +113,12 @@
                     <p class="text-lg mb-2">
                         In the fall of 2024, I decided to cancel future development on Taki Clicker and decided to attempt to reboot it in Godot Engine as "Toki Clicker" to avoid copyright.
                     </p>
-                    <p class="text-lg">
+                    <p class="text-lg mb-4">
                         As of 2025, I have officially cancelled all continuation of this project.
                     </p>
+                    <a href="main/logs/updates/taki-clicker-legacy.md" class="view-log-button" target="_blank" rel="noopener noreferrer">
+                        View Development Log
+                    </a>
                 </div>
             </div>
         </main>
