@@ -1,7 +1,7 @@
 # YaBroBlackCat
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A719FZRG)
-### Owner of [BawkBawk Productions](https://www.roblox.com/communities/9862765/BawkBawk-Productions#!/)
+### Owner of [BawkBawk Productions](http://discord.gg/J8SbvX66rc)
 [LinkTree](http://linktr.ee/YaBroBlackCat)
 
 
