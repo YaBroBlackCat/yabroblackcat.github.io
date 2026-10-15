@@ -3,6 +3,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .game-container {
@@ -16,6 +23,7 @@ body {
     border-radius: 8px;
     background-color: lightpink;
     padding: 10px;
+    margin: 10px;
 
     gap: 15px;
     align-items: center;
@@ -30,7 +38,7 @@ body {
     padding: 20px;
     border: 3px solid black;
     border-radius: 8px;
-    background-color: transparent;
+    background-color: whitesmoke;
 }
 
 .thumb-wrapper {
@@ -62,9 +70,11 @@ body {
 }
 
 .header {
-    padding: 2px;
-    border: 8px solid rgb(255, 166, 181);
-    border-radius: 8px;
+    padding: 10px 10px;
     background-color: lightpink;
+    width: 100%;
+
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
