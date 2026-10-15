@@ -8,57 +8,91 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div class="wrapper">
+        <div class="block">
+            <header class="header">
+                <div class="logo">
+                    <h1>YaBroBlackCat</h1>
+                </div>
+                <nav class="nav-links">
+                    <a href="https://www.youtube.com/@yabroblackcat" target="_blank" rel="noopener noreferrer">
+                        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/3840px-YouTube_full-color_icon_%282017%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" alt="YouTube">
+                    </a>
+                    <a href="https://github.com/YaBroBlackCat/yabroblackcat.github.io" target="_blank" rel="noopener noreferrer">
+                        <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-white-icon.png" alt="Github">
+                    </a>
+                </nav>
+            </header>
 
-    <header class="header">
-        <div class="logo">
-            <h1>YaBroBlackCat</h1>
-        </div>
-        <nav class="nav-links">
-            <a href="#about-me">About Me</a>
-            <a href="#my-games">My Games</a>
-        </nav>
-    </header>
+            <div class="wrapper" id="about-me">
+                <div class="intro-block">
+                    <div class="intro-text">
+                        <a href="https://ko-fi.com/A0A719FZRG" target="_blank" rel="noopener noreferrer">
+                            <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi button">
+                        </a>
+                        <h3>Owner of <a href="https://discord.gg/J8SbvX66rc" target="_blank" rel="noopener noreferrer">BawkBawk Productions</a></h3>
+                        <p>A cool website for my projects.</p>
+                        <p>Check out my games on my <a href="https://ycreate.itch.io" target="_blank" rel="noopener noreferrer"><b>Itch!</b></a></p>
+                    </div>
+                </div>
+            </div>
 
-    <div class="intro-wrapper" id="about-me">
-        <div class="intro-block">
-            <div class="links">
-                <a href="https://ko-fi.com/A0A719FZRG" target="_blank" rel="noopener noreferrer">
-                    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi button">
-                </a>
-                <a href="http://linktr.ee/YaBroBlackCat" target="_blank" rel="noopener noreferrer">
-                    <img src="img/linktree.jpg" alt="LinkTree button" style="width: auto; height: 30px; border-radius: 10px;">
-                </a>
+            <h2>Game Dev Logs</h2>
+            <div class="game-container" id="my-games">
+                <div class="game">
+                    <div class="thumb-wrapper">
+                        <a href="logs\updates\taki-clicker-legacy.md">
+                            <img src="img/TakiClickerTh.png" alt="Taki Clicker Legacy logo">
+                        </a>
+                    </div>
+                    <h2>Taki Clicker Legacy</h2>
+                </div>
+                <div class="game">
+                    <div class="thumb-wrapper">
+                        <a href="#">
+                            <img src="img/Chicken.jpg" alt="Placeholder Game">
+                        </a>
+                    </div>
+                    <h2>Placeholder Game</h2>
+                </div>
+                <div class="game">
+                    <div class="thumb-wrapper">
+                        <a href="#">
+                            <img src="img/Chicken.jpg" alt="Placeholder Game">
+                        </a>
+                    </div>
+                    <h2>Placeholder Game</h2>
+                </div>
+                <div class="game">
+                    <div class="thumb-wrapper">
+                        <a href="#">
+                            <img src="img/Chicken.jpg" alt="Placeholder Game">
+                        </a>
+                    </div>
+                    <h2>Placeholder Game</h2>
+                </div>
             </div>
-            <div class="intro-text">
-                <h3>Owner of <a href="https://discord.gg/J8SbvX66rc" target="_blank" rel="noopener noreferrer">BawkBawk Productions</a></h3>
-                <p>A cool website for my projects.</p>
-                <p>Check out my games on my <a href="https://ycreate.itch.io" target="_blank" rel="noopener noreferrer"><b>Itch!</b></a></p>
-            </div>
+
             <div class="fun-stuff">
-                <button id="takiBag" type="button" style="border: none; background-color: transparent;">
-                    <img src="img/Takis.svg" alt="Taki Bag" width="80">
-                </button>
-                <h4 id="takiCounter">Takis: 0</h4>
-                <button id="resetTaki" type="button">Reset Takis</button>
+                <h2>FUN STUFF!</h2>
+                <div class="wrapper" id="fun-wrapper">
+                    <div id="taki-game">
+                        <button id="takiBag" type="button" style="border: none; background-color: transparent;">
+                            <img src="img/Takis.svg" alt="Taki Bag" width="100">
+                        </button>
+                        <h4 id="takiCounter" style="color: violet;">Takis: 0</h4>
+                        <button id="resetTaki" type="button" style="border: none; background-color: purple; color: white;">Reset Takis</button>
+                    </div>
+                    <div id="faz-scale">
+                        <button id="killFaz">**KILL FREDDY**</button>
+                        <button id="resetFaz">Reset Freddy</button>
+                        <br>
+                        <input type="range" min="1" max="325" value="100" id="fazRange">
+                        <br>
+                        <img src="img/freddy fazbear.png" alt="Freddy Fazbear" width="100" id="fazbear">
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-
-    <div class="game-container" id="my-games">
-        <div class="game">
-            <div class="thumb-wrapper">
-                <img src="img/TakiClickerTh.png" alt="Taki Clicker Legacy logo">
-            </div>
-            <h2><a href="logs\updates\taki-clicker-legacy.md">Taki Clicker Legacy</a></h2>
-            <p>Taki Clicker is an old game I originally made in 5th grade as a joke, but it soon became a serious project. In the fall of 2024, I decided to cancel future development on Taki Clicker 
-                and decided to attempt to reboot it in Godot Engine as "Toki Clicker" to avoid copyright. As of 2025, I have officially cancelled all continuation of this project.</p>
-        </div>
-        <div class="game">
-            <div class="thumb-wrapper">
-                <img src="img/Chicken.jpg" alt="Placeholder logo">
-            </div>
-            <h2><a href="#">Placeholder game</a></h2>
-            <p>Placeholder for any other game I may wanna add to here.</p>
         </div>
     </div>
 </body>

@@ -1,4 +1,5 @@
 # Taki Clicker Legacy
+Taki Clicker is an old game I originally made in 5th grade as a joke, but it soon became a serious project. In the fall of 2024, I decided to cancel future development on Taki Clicker and decided to attempt to reboot it in Godot Engine as "Toki Clicker" to avoid copyright. As of 2025, I have officially cancelled all continuation of this project.
 
 ### Updates
 > These aren't all the updates made, they are just the only ones that were documented on the [Itch.io Page](https://ycreate.itch.io/taki-clicker)
