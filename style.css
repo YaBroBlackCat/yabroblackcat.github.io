@@ -15,7 +15,6 @@ html {
 }
 
 .game-container {
-    width: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -85,6 +84,7 @@ a {
 .block {
     display: flex;
     flex-direction: column;
+    width: min(500px, 55%);
 
     justify-content: left;
     gap: 10px;
@@ -96,7 +96,6 @@ a {
 }
 
 #fun-wrapper {
-    width: 500px;
     gap: 50px;
     justify-content: left;
     flex-direction: row;
