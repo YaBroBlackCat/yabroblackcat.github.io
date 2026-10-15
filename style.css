@@ -1,11 +1,13 @@
 body {
-    background-color: rgb(57, 9, 52);
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
-    color: black;
+    color: rgb(104, 255, 255);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url(img/CoolBG.jpg);
+    background-size: cover;
 }
 
 html {
@@ -19,9 +21,7 @@ html {
     overflow-x: auto;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
-    border: 8px solid rgb(255, 166, 181);
-    border-radius: 8px;
-    background-color: lightpink;
+    background-color: transparent;
     padding: 10px;
     margin: 10px;
 
@@ -36,9 +36,8 @@ html {
     height: 300px;
     flex-shrink: 0;
     padding: 20px;
-    border: 3px solid black;
     border-radius: 8px;
-    background-color: whitesmoke;
+    background-color: transparent;
 }
 
 .thumb-wrapper {
@@ -61,20 +60,34 @@ html {
 }
 
 .intro-block {
-    width: 650px;
-    height: 500px;
+    width: 70%;
+    height: auto;
     padding: 20px;
-    border: 8px solid rgb(255, 166, 181);
-    border-radius: 8px;
-    background-color: lightpink;
+    border-radius: 20px;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-around;
 }
 
 .header {
     padding: 10px 10px;
-    background-color: lightpink;
+    background-color: transparent;
     width: 100%;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: lightgreen;
 }
