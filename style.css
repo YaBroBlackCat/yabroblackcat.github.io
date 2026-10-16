@@ -8,6 +8,7 @@ body {
     box-sizing: border-box;
     background-image: url(img/CoolBG.jpg);
     background-size: cover;
+    height: 100vh;
 }
 
 html {
@@ -66,6 +67,15 @@ html {
     justify-content: left;
 }
 
+.info-block {
+    width: 100%;
+    height: auto;
+    gap: 10px;
+
+    display: flex;
+    justify-content: left;
+}
+
 .header {
     padding: 10px 10px;
     background-color: transparent;
@@ -113,4 +123,20 @@ a {
     border: none;
     background-color: sienna;
     color: white;
+}
+
+#taki-block {
+    background-color: darkmagenta;
+    color: white;
+    border-radius: 8px;
+}
+
+#taki-body {
+    background-image: url(img/TakiClickerTh.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+#taki-header {
+    padding: 0px 10px;
 }
