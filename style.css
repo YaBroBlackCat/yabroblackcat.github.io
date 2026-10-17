@@ -84,6 +84,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 a {
@@ -94,7 +95,7 @@ a {
 .block {
     display: flex;
     flex-direction: column;
-    width: min(500px, 55%);
+    width: min(500px, 80%);
 
     justify-content: left;
     gap: 10px;
